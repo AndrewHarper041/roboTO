@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>roboTO JS tests</title>
+  <link rel="stylesheet" href="qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <!-- Includes for testing -->
+  <script src="qunit.js"></script> <!-- QUnit itself -->
+  <script src="tests.js"></script> <!-- Test suite -->
+  <script src="../js/players.js"></script>
+
+  <!-- Test script -->
+  <script>
+    QUnit.test( "a basic test example", function( assert ) {
+      var value = "hello";
+      assert.equal( value, "hello", "We expect value to be hello" );
+    });
+  </script>
+</body>
+</html>

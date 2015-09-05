@@ -1,0 +1,31 @@
+/*
+ * User stories associated with non-traditional 'importance' that describes how
+ * high/low level each feature is, 1 being base functions used to do incrementally
+ * higher functions up to actual features at 5. Generally prioritize low level.
+ */
+
+TODO:
+
+Get all participants from a tournament - 4
+Get all tournaments from a subdomain - 5
+Get all matches from a tournament - 4
+Get results for all matches - 5
+Change ELO change based on a match result - 3
+Chronologically establish ELO from a set of tournaments - 4
+Update ELO of established player list form single tournament - 5
+Store established list of players with associated ELO - 4
+Get date of tournaments - 3
+Track a list of players for a tournment with associate ELO - 2
+Track a list of players across multiple tournaments with ELO - 3
+Calculate ELO change based off results and two players score - 1
+Seed a tournment in challonge using ELO results got for players entered - 4
+Get a list of players from google docs - 3
+Create a tournment from list of seeded players - 5
+Organize a list of players in memory - 2
+Batch accept a list of players - 1
+"Genericize" players batch added - 2
+Be able to alert user of possible tag matches from similar names - 3
+
+
+COMPLETED:
+"Genericize" participants names - 1
